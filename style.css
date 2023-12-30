@@ -7,5 +7,19 @@ body{
   
 }
 .container{
+  width: 100vw;
+  height: 100vh;
+}
+.container .header .header-wrapper{
+  width: 100vw;
+  height: 100vh;
+}
+.container .header .header-wrapper .img-wrapper{
+  width: 20%;
+  height: 80%;
+}
+.container .header .header-wrapper .img-wrapper img{
+  object-fit:cover;
+  max-width: 100%;
   
 }
