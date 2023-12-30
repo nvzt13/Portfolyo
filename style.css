@@ -3,23 +3,26 @@
   padding: 0;
   border: 1px solid
 }
-body{
-  
-}
 .container{
-  width: 100vw;
-  height: 100vh;
+  background-image: url("./image/joshua-earle-9idqIGrLuTE-unsplash.jpg");
+  width:100vw;
+  height:100vh;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  background-size: center;
+  
 }
 .container .header .header-wrapper{
   width: 100vw;
-  height: 100vh;
+  height: 20vh;
 }
 .container .header .header-wrapper .img-wrapper{
-  width: 20%;
-  height: 80%;
+  
 }
 .container .header .header-wrapper .img-wrapper img{
   object-fit:cover;
-  max-width: 100%;
-  
+  width:100px;
+  height: 100px;
+  object-position: 50% 38%;
 }
