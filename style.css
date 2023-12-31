@@ -5,12 +5,9 @@
 }
 .container{
   background-image: url("./image/joshua-earle-9idqIGrLuTE-unsplash.jpg");
-  width:100vw;
-  height:100vh;
-  object-fit: cover;
-  object-position: center;
+  height: auto;
   background-repeat: no-repeat;
-  background-size: center;
+ 
   
 }
 .container .header .header-wrapper{
