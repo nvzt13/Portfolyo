@@ -1,14 +1,28 @@
 *{
   margin: 0;
   padding: 0;
+  list-style: none;
   border: 1px solid
 }
 .container{
-  background-image: url("./image/joshua-earle-9idqIGrLuTE-unsplash.jpg");
-  height: auto;
-  background-repeat: no-repeat;
- 
+  display: flex;
+  flex-direction: column;
+}
+.container .title{
   
+}
+.container .title .title-wrapper{
+  
+}
+.container .title .title-wrapper ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+.container .title .title-wrapper ul li{
+  text-align: center;
 }
 .container .header .header-wrapper{
   width: 100vw;
