@@ -4,6 +4,18 @@
   list-style: none;
   border: 1px solid
 }
+body{
+  width: 100vw;
+  height: auto;
+}
+.bg{
+  position: absolute;
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  z-index: -1;
+}
 .container{
   display: flex;
   flex-direction: column;
