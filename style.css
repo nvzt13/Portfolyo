@@ -52,3 +52,21 @@ body{
   border: none;
   border-radius:10px;
 }
+
+/* main*/
+
+.container .main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+}
+.container .main .card{
+  width: 25vw;
+}
+.container .main .card .card-wrapper{
+  width: 100;
+  height: 150px;
+  text-align: center;
+}
