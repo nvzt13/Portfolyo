@@ -2,20 +2,21 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  border: 1px solid
+ 
+  box-sizing: border-box;
 }
 body{
-  width: 100vw;
-  height: auto;
+  
 }
 .bg{
   position: absolute;
   object-fit: contain;
   max-width: 100%;
-  height:100vh ;
+  height:100vh;
   object-fit: cover;
   z-index: -1;
   opacity: 0.5;
+  position:fixed;
 }
 .container{
   display: flex;
@@ -24,15 +25,21 @@ body{
 .container .title{
   
 }
-.container .title .title-wrapper{
-  
+.container .title .title-wrapper ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  background: red;
 }
 .container .title .title-wrapper ul{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  margin: 10px 0;
+  justify-content: space-evenly;
+  margin: 0;
+  border: 2px solid;
 }
 .container .title .title-wrapper ul li{
   text-align: center;
@@ -63,10 +70,17 @@ body{
   margin: 0 auto;
 }
 .container .main .card{
-  width: 25vw;
+  margin: 0 auto;
 }
 .container .main .card .card-wrapper{
-  width: 100;
-  height: 150px;
+  
   text-align: center;
+}
+.container .main .card .card-wrapper .icon-wrapper{
+  width: 25vw;
+  height: 20vh;
+  backdrop-filter: red;
+}
+.container .main .card .card-wrapper .icon-wrapper a img{
+ width: 100%;
 }
