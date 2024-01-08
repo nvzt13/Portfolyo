@@ -4,6 +4,7 @@
   list-style: none;
  border: 1px solid;
   box-sizing: border-box;
+  font-family: sans-serif,'Times New Roman', Times, serif
 }
 body{
   
@@ -23,28 +24,28 @@ body{
   flex-direction: column;
 }
 .container .title{
+  background-color:red;
   
 }
 .container .title .title-wrapper ul{
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
   width: 100vw;
   height: 90px;
-  background: red;
-  position: fixed;
-  margin-top: -10px;
-}
-.container .title .title-wrapper ul{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 2px solid;
+  position:fixed;
 }
 .container .title .title-wrapper ul li{
   text-align: center;
-  
+}
+.container .title .title-wrapper ul li img{
+  width: 30px;
+}
+.container .title .title-wrapper ul li p{
+  font-size: 24px;
+  margin-top: 5px;
+  color: white;
 }
 /*______________main_____________*/
 
@@ -52,6 +53,7 @@ body{
   display: flex;
   flex-direction: row;
   height: 100vh;
+  margin-top: 90px;
 }
 .container .main .col-1{
  width: 33vw;
@@ -68,9 +70,9 @@ body{
 .container .main .col-1 .header .header-wrapper .img-wrapper img{
   object-fit:cover;
   width:100%;
+  height:300px;
   object-position: 50% 38%;
-  border: none;
-  border-radius:10px;
+  border-radius: 50%;
 }
 .container .main .col-2 .cards{
  display:grid;
@@ -90,7 +92,7 @@ body{
 /*________________footer_______________*/
 
 .container .footer{
-  background-color: red;
+  background: #00FFCA;
   opacity: 0.3;
   height: 10vh;
 }
