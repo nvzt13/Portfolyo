@@ -38,7 +38,6 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  margin: 0;
   border: 2px solid;
 }
 .container .title .title-wrapper ul li{
@@ -48,13 +47,13 @@ body{
 .container .main{
   display: flex;
   flex-direction: row;
+  height: 100vh;
 }
 .container .main .col-1{
-  width: 20vw;
+  width: 30vw;
 }
 .container .main .col-1 .header{
   border: 3px solid;
-  height: 100vh;
 }
 .container .main .col-1 .header .header-wrapper{
   
@@ -70,18 +69,16 @@ body{
   border: none;
   border-radius:10px;
 }
-.container .main .col-2{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  align-items: center;
-  height: 40vh;
+.container .main .col-2 .cards{
+ display:grid;
+ grid-template-columns: auto auto;
+ grid-row-gap:10px;
 }
 .container .main .col-2 .card .card-wrapper{
-  text-align: center;
+  
 }
 .container .main .col-2 .card .card-wrapper .icon-wrapper{
-  width: 10vw;
 }
 .container .main .col-2 .card .card-wrapper .icon-wrapper a img{
- width: 100%;
+ max-width: 100%;
 }
