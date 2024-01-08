@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
- 
+ border: 1px solid;
   box-sizing: border-box;
 }
 body{
@@ -44,14 +44,25 @@ body{
 .container .title .title-wrapper ul li{
   text-align: center;
 }
-.container .header .header-wrapper{
-  width: 100vw;
-  height: 20vh;
+/* main*/
+.container .main{
+  display: flex;
+  flex-direction: row;
 }
-.container .header .header-wrapper .img-wrapper{
+.container .main .col-1{
+  width: 20vw;
+}
+.container .main .col-1 .header{
+  border: 3px solid;
+  height: 100vh;
+}
+.container .main .col-1 .header .header-wrapper{
   
 }
-.container .header .header-wrapper .img-wrapper img{
+.container .main .col-1 .header .header-wrapper .img-wrapper{
+  
+}
+.container .main .col-1 .header .header-wrapper .img-wrapper img{
   object-fit:cover;
   width:100px;
   height: 100px;
@@ -59,28 +70,21 @@ body{
   border: none;
   border-radius:10px;
 }
-
-/* main*/
-
-.container .main{
+.container .main .col-2{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: space-around;
+  justify-content: space-around;
   width: 80vw;
-  margin: 0 auto;
+  height:100vh;
 }
-.container .main .card{
-  margin: 0 auto;
-}
-.container .main .card .card-wrapper{
-  
+.container .main .col-2 .card .card-wrapper{
   text-align: center;
 }
-.container .main .card .card-wrapper .icon-wrapper{
-  width: 25vw;
-  height: 20vh;
-  backdrop-filter: red;
+.container .main .col-2 .card .card-wrapper .icon-wrapper{
+  width: 10vw;
 }
-.container .main .card .card-wrapper .icon-wrapper a img{
+.container .main .col-2 .card .card-wrapper .icon-wrapper a img{
  width: 100%;
 }
