@@ -9,7 +9,7 @@ body{
   
 }
 .bg{
-  position: absolute;
+  
   object-fit: contain;
   max-width: 100%;
   height:100vh;
@@ -28,10 +28,12 @@ body{
 .container .title .title-wrapper ul{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
   width: 100vw;
+  height: 90px;
   background: red;
+  position: fixed;
+  margin-top: -10px;
 }
 .container .title .title-wrapper ul{
   display: flex;
@@ -42,15 +44,17 @@ body{
 }
 .container .title .title-wrapper ul li{
   text-align: center;
+  
 }
-/* main*/
+/*______________main_____________*/
+
 .container .main{
   display: flex;
   flex-direction: row;
   height: 100vh;
 }
 .container .main .col-1{
-  width: 30vw;
+ width: 33vw;
 }
 .container .main .col-1 .header{
   border: 3px solid;
@@ -63,8 +67,7 @@ body{
 }
 .container .main .col-1 .header .header-wrapper .img-wrapper img{
   object-fit:cover;
-  width:100px;
-  height: 100px;
+  width:100%;
   object-position: 50% 38%;
   border: none;
   border-radius:10px;
@@ -73,6 +76,7 @@ body{
  display:grid;
  grid-template-columns: auto auto;
  grid-row-gap:10px;
+ width: 67vw;
 }
 .container .main .col-2 .card .card-wrapper{
   
@@ -81,4 +85,12 @@ body{
 }
 .container .main .col-2 .card .card-wrapper .icon-wrapper a img{
  max-width: 100%;
+}
+
+/*________________footer_______________*/
+
+.container .footer{
+  background-color: red;
+  opacity: 0.3;
+  height: 10vh;
 }
