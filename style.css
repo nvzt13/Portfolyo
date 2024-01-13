@@ -23,12 +23,12 @@ body{
 
 
 
-.title{
+.header{
   background-color:grey;
   position: fixed;
   top: 0;
 }
-.title .title-wrapper ul{
+.header .title-wrapper ul{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -36,20 +36,20 @@ body{
   width: 100vw;
   height: 60px;
 }
-.title .title-wrapper ul li{
+.header .title-wrapper ul li{
   text-align: center;
   border: 1px solid  black;
   padding: 5px 15px;
   border-radius: 5px;
 }
-.title .title-wrapper ul li:hover{
+.header .title-wrapper ul li:hover{
   background-color: red;
 }
 
-.title .title-wrapper ul li img{
+.header .title-wrapper ul li img{
   width: 20px;
 }
-.title .title-wrapper ul li p{
+.header .title-wrapper ul li p{
   font-size: 18px;
   color:#fff;
 }
