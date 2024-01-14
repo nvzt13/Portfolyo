@@ -75,18 +75,18 @@ body{
  background-color: #8DAA4D;
  padding-top: 30px;
 }
-.main .col-1 .header{
+.main .col-1 .profile{
   border: 1px solid;
 }
-.main .col-1 .header .header-wrapper{
+.main .col-1 .profile .profile-wrapper{
   
 }
-.main .col-1 .header .header-wrapper .img-wrapper{
+.main .col-1 .profile .profile-wrapper .img-wrapper{
   width: 200px;
   height: 200px;
   
 }
-.main .col-1 .header .header-wrapper .img-wrapper img{
+.main .col-1 .profile .profile-wrapper .img-wrapper img{
   object-fit:cover;
   width:100%;
   height:100%;
