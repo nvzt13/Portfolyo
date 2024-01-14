@@ -72,8 +72,9 @@ body{
   justify-content: center;
  width: 28vw;
  border: 1px solid;
- background-color: #8DAA4D;
+ background-color:#365B5A;
  padding-top: 30px;
+ height: 50%;
 }
 .main .col-1 .profile{
   border: 1px solid;
@@ -94,9 +95,6 @@ body{
   border-radius: 50%;
 }
 .main .col-2{
-  display: grid;
-  grid-gap: 10px;
-  height:auto;
   width:70vw;
    margin:0 auto;
 }
