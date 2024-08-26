@@ -11965,17 +11965,19 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  font-family: sans-serif;
+body {
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
 
 .nevzat {
   font-size: 36px;
 }
 
-.header-area {
+.slider_area {
   background-image: url("https://themewagon.github.io/jony/img/banner/banner.png");
   background-size: cover;
   opacity: 0.9;
@@ -12000,4 +12002,8 @@ textarea.form-control-lg {
 
 .gallery_area {
   background-color: #311E25;
+}
+
+.footer_area {
+  background-image: url("https://themewagon.github.io/jony/img/banner/banner.png");
 }/*# sourceMappingURL=style.css.map */
