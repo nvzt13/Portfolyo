@@ -30,14 +30,17 @@
             <li class="nav-item">
               <a class="nav-link text-warning" href="./works.html">Works</a>
             </li>
-           
             <li class="nav-item">
-              <a class="nav-link disabled text-warning" aria-disabled="true">About</a>
+              <a class="nav-link text-warning" href="./talk.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./about.html">About</a>
             </li>
           </ul>
         </div>
-        <a href="./talk.html" id="talk-btn" class="btn btn-outline-warning text-light btn-lg" type="submit">Let'
-          Talk</a>
+          <div id="toggleContainer" class="toggle-container">
+    <i id="toggleIcon" class="fas fa-moon toggle-icon moon"></i>
+  </div>
       </nav>
     </div>
   </header>
@@ -45,25 +48,27 @@
 
   <!-------------------- Header End --------------->
 
-
-  <!-------------------- Header End --------------->
     <div class="container-fluid" id="test">
-        <form>
+        <form action="./email.php" method="POST">
   <div class="mb-3">
     <label for="name" class="form-label text-light">First Name</label>
-    <input type="text" class="form-control bg-light" id="name" aria-describedby="nameHelp">
+    <input name="name" type="text" class="form-control bg-light" id="name" aria-describedby="nameHelp">
   </div>
     <div class="mb-3">
     <label for="lastName" class="form-label text-light">Last Name</label>
-    <input type="text" class="form-control bg-light" id="lastName" aria-describedby="lastNameHelp">
+    <input name="lastName" type="text" class="form-control bg-light" id="lastName" aria-describedby="lastNameHelp">
   </div>
   <div class="mb-3">
     <label for="messageInput" class="form-label text-light">Message</label>
-    <textarea name="" class="form-control bg-light" cols="30" rows="5"></textarea>
+    <textarea name="message" class="form-control bg-light" cols="30" rows="5"></textarea>
   </div>
-  <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+  <button id="submit" type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
   </div>
+
+
+
+  <!-------------------- JavaScript --------------->
 
   <script src="app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
