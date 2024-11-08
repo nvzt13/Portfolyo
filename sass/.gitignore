@@ -1,0 +1,6 @@
+# Ignore everything in node_modules
+node_modules/*
+
+# Unignore Bootstrap
+!node_modules/bootstrap/
+!node_modules/bootstrap/**/*

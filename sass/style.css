@@ -11965,6 +11965,15 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+#container {
+  background-color: red;
+  height: 100vh;
+}
+
 .nevzat {
   font-size: 36px;
 }
@@ -11998,4 +12007,62 @@ textarea.form-control-lg {
 
 .footer_area {
   background-image: url("https://themewagon.github.io/jony/img/banner/banner.png");
+}
+
+.hidden {
+  display: none;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-indent {
+  text-indent: 16px;
+}
+
+#test {
+  background-color: #311E25;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.toggle-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 60px;
+  height: 30px;
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.toggle-container.dark {
+  background-color: #1b1e21;
+}
+
+.toggle-icon {
+  font-size: 20px;
+  transition: transform 0.5s, color 0.5s;
+}
+
+.toggle-icon.moon {
+  color: #f1c40f;
+}
+
+.toggle-icon.sun {
+  color: #f39c12;
+}
+
+.move-right {
+  transform: translateX(30px);
 }/*# sourceMappingURL=style.css.map */
