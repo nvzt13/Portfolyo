@@ -11848,35 +11848,22 @@ body {
   transition: background-color 0.5s, color 0.5s;
 }
 
-#container {
-  background-color: red;
-  height: 100vh;
-}
-
 .nevzat {
   font-size: 36px;
 }
 
 .slider_area {
-  background-color: #6e0c30;
+  background-color: #0dcaf0;
   background-size: cover;
   opacity: 0.9;
 }
 
-.contanct {
-  background-color: red;
-}
-
-.definition {
-  font-size: 48px;
-}
-
 .download-area {
-  background-color: #311E25;
+  background-color: #6c757d;
 }
 
 .services_area {
-  background-color: #402525;
+  background-color: #7069c5;
   color: #fff;
 }
 
@@ -11885,11 +11872,12 @@ body {
 }
 
 .gallery_area {
-  background-color: #311E25;
+  background-color: #6c757d;
 }
 
 .footer_area {
-  background-image: url("https://themewagon.github.io/jony/img/banner/banner.png");
+  background-color: #0dcaf0;
+  opacity: 0.9;
 }
 
 .hidden {
@@ -11904,8 +11892,9 @@ body {
   text-indent: 16px;
 }
 
-#test {
-  background-color: #311E25;
+.about {
+  background-color: #7069c5;
+  text-align: justify;
 }
 
 .dark-mode {
@@ -11914,7 +11903,7 @@ body {
 }
 
 .toggle-container {
-  position: fixed;
+  position: sticky;
   top: 20px;
   right: 20px;
   width: 60px;

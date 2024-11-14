@@ -2,43 +2,46 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
+$textColor1: #000;
+$textColor2: #fff;
+$textColor3:$warning;
+$bg-color1: $info;
+$bg-color2: $secondary;
+$bg-color3: #7069c5;
+
+
+
+
+
 body {
      transition: background-color 0.5s, color 0.5s;
    }
-#container{
-    background-color: red;
-    height: 100vh;
-}
 
+// index.html
 .nevzat{
     font-size: 36px;
 }
 .slider_area{
-    background-color:#6e0c30;
+    background-color:$bg-color1;
     background-size: cover;
     opacity: 0.9;
 }
-.contanct{
-    background-color: red;
-}
-.definition{
-    font-size:48px;
-}
 .download-area{
-    background-color: #311E25;
+    background-color: $bg-color2;
 }
 .services_area{
-    background-color: #402525;
+    background-color: $bg-color3;
     color:#fff;
 }
 .single_services{
     border:1px solid yellow;
 }
 .gallery_area{
-    background-color: #311E25;
+    background-color: $bg-color2;
 }
 .footer_area{
-    background-image:url("https://themewagon.github.io/jony/img/banner/banner.png") ;
+    background-color: $bg-color1;
+    opacity: 0.9;
 }
 .hidden{
     display: none;
@@ -49,15 +52,19 @@ body {
   .text-indent{
     text-indent: 16px;
   }
-  #test{
-    background-color: #311E25;
-  }
+ 
+ //about.html
+ .about{
+ 	background-color: $bg-color3;
+ 	text-align: justify;
+ }
+  //Dark mode classes
 .dark-mode {
         background-color: #121212;
         color: #ffffff;
       }
 .toggle-container {
-        position: fixed;
+        position: sticky;
         top: 20px;
         right: 20px;
         width: 60px;

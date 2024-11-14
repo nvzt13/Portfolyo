@@ -5,8 +5,6 @@
   <title>Title</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-  <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="./sass/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
@@ -15,10 +13,11 @@
 </head>
 
 <body>
+	
   <!------------------- Header Start ----------------->
   <header>
     <div class="container-fluit">
-      <nav class="navbar navbar-expand-lg bg-dark px-5">
+      <nav class="navbar navbar-expand-lg bg-danger px-5 position-sticky">
         <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -32,13 +31,16 @@
                 href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./works.html">Works</a>
+              <a class="nav-link text-warning" href="./dist/pages/works.html">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./talk.html">Contact</a>
+              <a class="nav-link text-warning" href="./dist/pages/talk.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./about.html">About</a>
+              <a class="nav-link text-warning" href="./dist/pages/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./dist/pages/login.html">Login</a>
             </li>
           </ul>
         </div>
@@ -50,12 +52,8 @@
   </header>
 
 
-  <!-------------------- Header End --------------->
-
+  <!-------------------- Header End Slider Area Start--------------->
   <div id="content">
-
-    <!----------------- Slider Area Start -------------------->
-
     <div class="slider_area  py-5 ">
       <div class="single_area mt-5">
         <div class="container mt-5">
@@ -67,7 +65,7 @@
               <p class="definition text-warning fw-bold">
                 Web Developer
               </p> <br>
-              <a href="./works.html" class="btn btn-outline-warning text-light fw-bold fs-5">
+              <a href="./dist/pagesworks.html" class="btn btn-outline-warning text-light fw-bold fs-5">
                 View Works</a>
             </div>
           </div>
@@ -75,10 +73,7 @@
       </div>
     </div>
 
-    <!----------------- Slider Area End -------------------->
-
-
-    <!---------------------Download Area Start----->
+    <!----------------- Slider Area End Download Area Start  -------------------->
     <div class="download-area pt-5">
       <div class="container">
         <div class="container row">
@@ -131,9 +126,7 @@
       </div>
     </div>
 
-    <!-------------------Download Area End -------------------->
-
-    <!-------------------Services Area Start -------------------><!--
+    <!------------------Download Area End Services Area Start  -------------------->
     <div class="services_area p-5">
       <div class="container pb-5">
         <div class="row pt-5">
@@ -176,10 +169,8 @@
         </div>
       </div>
     </div>
-    <!-------------------Services Area End ---------------------->
-
-    <!------------------Gallery Area Start ----------------------><!--
-
+    
+    <!-------------------Services Area End Gallery Area Start ---------------------->
     <div class="gallery_area pb-5 ">
       <div class="container d-flex justify-content-center">
         <div class="col-xl-10">
@@ -192,7 +183,7 @@
                   </div>
                   <div class="gallery_header ">
                     <span class="text-light"> Mobile App </span> <br>
-                    <a href="#" class="d-block text-warning my-4 fs-3"> Colorlib App Project</a>
+                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Project</a>
                   </div>
                 </div>
                 <div class="single_gallery">
@@ -201,7 +192,7 @@
                   </div>
                   <div class="galley_header">
                     <span class="text-light"> Mobile App</span> <br>
-                    <a href="#" class="d-block text-warning my-4 fs-3"> Colorlib App Projecy</a>
+                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Projecy</a>
                   </div>
                 </div>
               </div>
@@ -212,7 +203,7 @@
                   </div>
                   <div class="gallery_header ">
                     <span class="text-light"> Mobile App </span> <br>
-                    <a href="#" class="d-block text-warning my-4 fs-3"> Colorlib App Project</a>
+                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Project</a>
                   </div>
                 </div>
                 <div class="single_gallery">
@@ -221,7 +212,7 @@
                   </div>
                   <div class="galley_header">
                     <span class="text-light"> Mobile App</span> <br>
-                    <a href="#" class="d-block text-warning my-4 fs-3"> Colorlib App Projecy</a>
+                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Projecy</a>
                   </div>
                 </div>
               </div>
@@ -237,11 +228,7 @@
         </div>
       </div>
 
-    <!------------------ Gallery Area End ------------------------>
-
-    <!------------------ Footer Area Start ----------------------->
-
-
+    <!------------------ Gallery Area End Footer Area Start ------------------------>
     <div class="footer_area py-5">
       <div class="container py-5">
         <div class="row">
@@ -264,13 +251,11 @@
         </div>
       </div>
     </div>
-
-
-    <!------------------ Footer Area End  ----------------------->
-
   </div>
-
-  <script src="app.js"></script>
+  
+    <!------------------ Footer Area End JavaScript cdn start ----------------------->
+    
+  <script src="./dist/js/app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
