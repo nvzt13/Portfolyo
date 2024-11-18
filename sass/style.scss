@@ -5,12 +5,13 @@
 $textColor1: #000;
 $textColor2: #fff;
 $textColor3:$warning;
-$bg-color1: $info;
+$bg-color1: $danger;
 $bg-color2: $secondary;
 $bg-color3: #7069c5;
 
-
-
+*{
+	color: $textColor2;
+}
 
 
 body {
@@ -35,9 +36,6 @@ body {
 }
 .single_services{
     border:1px solid yellow;
-}
-.gallery_area{
-    background-color: $bg-color2;
 }
 .footer_area{
     background-color: $bg-color1;

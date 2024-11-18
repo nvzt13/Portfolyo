@@ -15,36 +15,32 @@
 <body>
 	
   <!------------------- Header Start ----------------->
-  <header>
+   <header>
     <div class="container-fluit">
-      <nav class="navbar navbar-expand-lg bg-danger px-5 position-sticky">
+      <nav class="navbar navbar-expand-lg bg-info px-5">
         <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-          <a class="nevzat navbar-brand text-warning" href="./index.html">Nevzat.</a>
+          <a class="nevzat navbar-brand" href="../../index.php">Nevzat.</a>
           <ul class="navbar-nav me-auto mx-auto ">
             <li class="nav-item">
-              <a href="./index.html" class="nav-link btn-outline-success active text-warning border-bottom" aria-current="page"
-                href="#">Home</a>
+              <a href="../../index.php" class="nav-link btn-outline-success active border-bottom" aria-current="page">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./dist/pages/works.html">Works</a>
+              <a class="nav-link" href="./works.php">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./dist/pages/talk.html">Contact</a>
+              <a class="nav-link" href="./talk.php">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./dist/pages/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-warning" href="./dist/pages/login.html">Login</a>
+              <a class="nav-link" href="./about.php">About</a>
             </li>
           </ul>
         </div>
-  <div id="toggleContainer" class="toggle-container">
+          <div id="toggleContainer" class="toggle-container">
     <i id="toggleIcon" class="fas fa-moon toggle-icon moon"></i>
   </div>
       </nav>
@@ -59,13 +55,13 @@
         <div class="container mt-5">
           <div class="pb-5 ">
             <div class=" container pt-5">
-              <h1 class="definition text-light mt-2 fw-bold">
+              <h1 class="definition mt-2 fw-bold">
                 Hey There I am Nevzat
               </h1> <br>
-              <p class="definition text-warning fw-bold">
+              <p class="definition fw-bold">
                 Web Developer
               </p> <br>
-              <a href="./dist/pagesworks.html" class="btn btn-outline-warning text-light fw-bold fs-5">
+              <a href="./dist/pagesworks.html" class="btn btn-outline-warning fw-bold fs-5">
                 View Works</a>
             </div>
           </div>
@@ -77,7 +73,7 @@
     <div class="download-area pt-5">
       <div class="container">
         <div class="container row">
-          <h3 class="text-light fw-bold ms-3">
+          <h3 class="fw-bold ms-3">
             I’m a Web Developer student based on Bitlis, who loves clean, simple & unique design. I also like to tackle
             problems.
           </h3>
@@ -85,37 +81,37 @@
         <div class="container row mt-5 justify-content-between ">
           <div class="container col-lg-6 col-sm-12">
           
-            <button id="view-cv" class="btn btn-outline-warning btn-lg m-5 text-light" onclick="viewCvFunktion()">View CV</button>
+            <button id="view-cv" class="btn btn-outline-warning btn-lg m-5" onclick="viewCvFunktion()">View CV</button>
             <img class="img-fluid hidden mb-5" id="cv" srcset="" src="./image/cv.png" alt="">
           </div>
           <div class="col-lg-4 col-sm-12">
             <div class="container row p-0">
-              <span class="text-white col-6 fw-medium text-start fs-5">web </span>
-              <span class="text-light col-6 text-end fw-medium p-0 fs-5">%85</span>
+              <span class="col-6 fw-medium text-start fs-5">web </span>
+              <span class="col-6 text-end fw-medium p-0 fs-5">%85</span>
             </div>
             <div class="progress my-3" role="progressbar" aria-label="example" aria-valuenow="25" aria-valuemin="0"
               aria-valuemax="100" style="height: 5px;">
               <div class="progress-bar bg-warning" style="width: 85%"></div>
             </div>
             <div class="container row p-0">
-              <span class="text-white col-6 fw-medium text-start fs-5">programming</span>
-              <span class="text-light col-6 text-end fw-medium p-0 fs-5">%60</span>
+              <span class="col-6 fw-medium text-start fs-5">programming</span>
+              <span class="col-6 text-end fw-medium p-0 fs-5">%60</span>
             </div>
             <div class="progress my-3" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0"
               aria-valuemax="100" style="height: 5px;">
               <div class="progress-bar bg-warning" style="width: 60%"></div>
             </div>
             <div class="container row p-0">
-              <span class="text-white col-6 fw-medium text-start fs-5">database</span>
-              <span class="text-light col-6 text-end fw-medium p-0 fs-5">%20</span>
+              <span class="col-6 fw-medium text-start fs-5">database</span>
+              <span class="col-6 text-end fw-medium p-0 fs-5">%20</span>
             </div>
             <div class="progress my-3" role="progressbar" aria-label="Warning example" aria-valuenow="75"
               aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
               <div class="progress-bar bg-warning" style="width: 20%"></div>
             </div>
             <div class="container row p-0">
-              <span class="text-white col-6 fw-medium text-start fs-5">network</span>
-              <span class="text-light col-6 text-end fw-medium p-0 fs-5">%10</span>
+              <span class="col-6 fw-medium text-start fs-5">network</span>
+              <span class="col-6 tnext-end fw-medium p-0 fs-5">%10</span>
             </div>
             <div class="progress my-3" role="progressbar" aria-label="Danger example" aria-valuenow="100"
               aria-valuemin="0" aria-valuemax="100" style="height: 5px;">
@@ -170,82 +166,24 @@
       </div>
     </div>
     
-    <!-------------------Services Area End Gallery Area Start ---------------------->
-    <div class="gallery_area pb-5 ">
-      <div class="container d-flex justify-content-center">
-        <div class="col-xl-10">
-              <h3 class="fs-1 text-light m-5 p-3"> My Works</h3>
-            <div class="row">
-              <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="single_gallery">
-                  <div class="photo mb-4">
-                    <img src="./image/phyton.jpg" width="100%" height="aouto" alt="">
-                  </div>
-                  <div class="gallery_header ">
-                    <span class="text-light"> Mobile App </span> <br>
-                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Project</a>
-                  </div>
-                </div>
-                <div class="single_gallery">
-                  <div class="photo mb-4">
-                    <img src="./image/frontend_1.jpg" width="100%" alt="">
-                  </div>
-                  <div class="galley_header">
-                    <span class="text-light"> Mobile App</span> <br>
-                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Projecy</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xl-6 col-lg-6 col-md-6">
-                <div class="single_gallery">
-                  <div class="photo mb-4">
-                    <img src="./image/database.jpg" width="100%" height="aouto" alt="">
-                  </div>
-                  <div class="gallery_header ">
-                    <span class="text-light"> Mobile App </span> <br>
-                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Project</a>
-                  </div>
-                </div>
-                <div class="single_gallery">
-                  <div class="photo mb-4">
-                    <img src="./image/frontend_2.jpg" width="100%" alt="">
-                  </div>
-                  <div class="galley_header">
-                    <span class="text-light"> Mobile App</span> <br>
-                    <a href="#" class="d-block my-4 fs-3"> Colorlib App Projecy</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="more_works d-grid gap-2 py-4">
-                  <button class="btn btn-outline-warning p-3 text-light fs-1"> More Works</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    <!------------------ Gallery Area End Footer Area Start ------------------------>
+    <!-------------------Services Area End Footer Area ------------------------>
     <div class="footer_area py-5">
       <div class="container py-5">
         <div class="row">
           <div class="button_wrapper col-xl-3">
-            <a  href="https://github.com/nvzt13" target="_blank" class="btn btn-outline-warning btn-lg  text-light fs-1 w-100">Github <i
+            <a  href="https://github.com/nvzt13" target="_blank" class="btn btn-outline-light btn-lg fs-1 w-100">Github <i
                 class="fa-brands fa-github"></i></a>
           </div>
           <div class="button_wrapper col-xl-3">
-            <a href="https://www.linkedin.com/in/nevzat-atalay-6b5164335/" class="btn btn-outline-warning btn-lg text-light fs-1 w-100" target="_blank">Linkedin <i
+            <a href="https://www.linkedin.com/in/nevzat-atalay-6b5164335/" class="btn btn-outline-light btn-lg fs-1 w-100" target="_blank">Linkedin <i
                 class="fa-brands fa-linkedin"></i></a>
           </div>
           <div class="button_wrapper col-xl-3">
-            <a  href="https://x.com/nvzt_atly" class="btn btn-outline-warning btn-lg text-light fs-1 w-100"> Twitter <i
+            <a  href="https://x.com/nvzt_atly" class="btn btn-outline-light btn-lg fs-1 w-100"> Twitter <i
                 class="fa-brands fa-x-twitter" target="_blank"></i></a>
           </div>
           <div class="button_wrapper col-xl-3">
-            <a class="btn btn-outline-warning btn-lg text-light fs-1 w-100" target="_blank">Medium <i
+            <a class="btn btn-outline-light btn-lg fs-1 w-100" target="_blank">Medium <i
                 class="fa-brands fa-medium"></i></a>
           </div>
         </div>

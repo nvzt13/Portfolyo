@@ -14,27 +14,27 @@
   <!------------------- Header Start ----------------->
   <header>
     <div class="container-fluit">
-      <nav class="navbar navbar-expand-lg bg-dark px-5">
+      <nav class="navbar navbar-expand-lg bg-info px-5">
         <button class="navbar-toggler text-bg-light" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
-          <a class="nevzat navbar-brand text-warning" href="../../index.html">Nevzat.</a>
+          <a class="nevzat navbar-brand" href="../../index.php">Nevzat.</a>
           <ul class="navbar-nav me-auto mx-auto ">
             <li class="nav-item">
-              <a href="../../index.html" class="nav-link btn-outline-success active text-warning border-bottom" aria-current="page"
+              <a href="../../index.php" class="nav-link btn-outline-success active border-bottom" aria-current="page"
                 href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./works.html">Works</a>
+              <a class="nav-link" href="./works.php">Works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./talk.html">Contact</a>
+              <a class="nav-link" href="./talk.php">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-warning" href="./about.html">About</a>
+              <a class="nav-link" href="./about.php">About</a>
             </li>
           </ul>
         </div>

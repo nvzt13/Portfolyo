@@ -11844,6 +11844,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  color: #fff;
+}
+
 body {
   transition: background-color 0.5s, color 0.5s;
 }
@@ -11853,7 +11857,7 @@ body {
 }
 
 .slider_area {
-  background-color: #0dcaf0;
+  background-color: #dc3545;
   background-size: cover;
   opacity: 0.9;
 }
@@ -11871,12 +11875,8 @@ body {
   border: 1px solid yellow;
 }
 
-.gallery_area {
-  background-color: #6c757d;
-}
-
 .footer_area {
-  background-color: #0dcaf0;
+  background-color: #dc3545;
   opacity: 0.9;
 }
 
