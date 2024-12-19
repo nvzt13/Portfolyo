@@ -11844,30 +11844,26 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-* {
-  color: #fff;
-}
-
-body {
-  transition: background-color 0.5s, color 0.5s;
-}
-
 .nevzat {
   font-size: 36px;
 }
 
+section {
+  min-height: 768px;
+}
+
 .slider_area {
-  background-color: #dc3545;
+  background-image: url("../image/banner.png");
   background-size: cover;
   opacity: 0.9;
 }
 
 .download-area {
-  background-color: #6c757d;
+  background-color: #311E25;
 }
 
 .services_area {
-  background-color: #7069c5;
+  background-color: #402525;
   color: #fff;
 }
 
@@ -11875,26 +11871,17 @@ body {
   border: 1px solid yellow;
 }
 
+.gallery_area {
+  background-color: #311E25;
+}
+
 .footer_area {
-  background-color: #dc3545;
-  opacity: 0.9;
+  background-image: url("https://themewagon.github.io/jony/img/banner/banner.png");
 }
 
-.hidden {
-  display: none;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.text-indent {
-  text-indent: 16px;
-}
-
-.about {
-  background-color: #7069c5;
-  text-align: justify;
+body {
+  transition: background-color 0.5s, color 0.5s;
+  min-height: 100vh;
 }
 
 .dark-mode {
@@ -11903,7 +11890,7 @@ body {
 }
 
 .toggle-container {
-  position: sticky;
+  position: static;
   top: 20px;
   right: 20px;
   width: 60px;
@@ -11937,6 +11924,10 @@ body {
 
 .move-right {
   transform: translateX(30px);
+}
+
+.hidden {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */
